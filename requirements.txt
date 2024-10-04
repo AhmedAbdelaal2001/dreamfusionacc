@@ -9,13 +9,11 @@ numpy
 PyYAML
 scipy
 tokenizers
-torch==1.13.0
-torchaudio==0.13.0
-torchvision==0.14.0
 tqdm
 transformers
 sentencepiece
+cmake
 
 # for nerfacc
-git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
 nerfacc -f https://nerfacc-bucket.s3.us-west-2.amazonaws.com/whl/torch-1.13.0_cu117.html
+git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
